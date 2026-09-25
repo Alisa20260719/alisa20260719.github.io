@@ -127,12 +127,14 @@
     {
       "id": "喜茶",
       "title": "喜茶",
+      "cover": "/assets/uploads/24d11e198091107fc212c328fc14c140.jpg",
       "link": "https://www.xinpianchang.com/a13319211?channel=copyLink&from=webShare",
       "visible": true
     },
     {
       "id": "Laurel-Judy",
       "title": "芮心人",
+      "cover": "/assets/uploads/ac780dd8e22c4f949b39357b02340211.jpg",
       "link": "https://www.xinpianchang.com/a13142243?channel=copyLink&from=webShare",
       "visible": true
     }
