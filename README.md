@@ -1,2 +1,9 @@
-# alisa20260719.github.io
-Alisa AI Studio — personal portfolio
+# Alisa AI Studio
+
+Alisa 的个人作品与职业档案。
+
+影像、编剧、品牌内容、平台运营与企业 AI 应用。
+
+本目录为 GitHub Pages 静态网站。入口为 `index.html`，图片和视频保持相对路径。
+
+作品及相关品牌标识属于各自权利方；本仓库不授予素材转载或再利用许可。
