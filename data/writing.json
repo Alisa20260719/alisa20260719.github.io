@@ -1,14 +1,9 @@
 {
   "id": "writing",
   "title": "写作与稿件",
-  "category": "编剧 · 文案 · 写作",
-  "summary": "故事从纸上开始。",
-  "cover": "",
-  "case": "writing",
-  "body": "",
-  "link": "",
-  "media": "",
-  "documents": [],
+  "summary": "故事从纸上开始。剧本、文案与写作，在这里相遇。",
   "visible": true,
-  "onTree": false
+  "case": "writing",
+  "onTree": false,
+  "category": "编剧 · 文案 · 写作"
 }
