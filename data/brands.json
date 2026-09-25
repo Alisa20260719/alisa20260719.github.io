@@ -1,0 +1,139 @@
+{
+  "items": [
+    {
+      "id": "brand-0",
+      "title": "腾讯",
+      "cover": "assets/portfolio/logo%E8%85%BE%E8%AE%AF.jpg",
+      "case": "brands",
+      "body": "主理人及合作团队项目经历，具体归属见完整品牌档案。",
+      "link": "",
+      "visible": true
+    },
+    {
+      "id": "brand-1",
+      "title": "中国平安",
+      "cover": "assets/portfolio/logo%E4%B8%AD%E5%9B%BD%E5%B9%B3%E5%AE%89.jpg",
+      "case": "brands",
+      "body": "主理人及合作团队项目经历，具体归属见完整品牌档案。",
+      "link": "",
+      "visible": true
+    },
+    {
+      "id": "brand-2",
+      "title": "华为",
+      "cover": "assets/portfolio/logo%E5%8D%8E%E4%B8%BA.jpg",
+      "case": "brands",
+      "body": "主理人及合作团队项目经历，具体归属见完整品牌档案。",
+      "link": "",
+      "visible": true
+    },
+    {
+      "id": "brand-3",
+      "title": "徕芬",
+      "cover": "assets/portfolio/logo%E5%BE%95%E8%8A%AC.jpg",
+      "case": "brands",
+      "body": "主理人及合作团队项目经历，具体归属见完整品牌档案。",
+      "link": "",
+      "visible": true
+    },
+    {
+      "id": "brand-4",
+      "title": "usmile",
+      "cover": "assets/portfolio/logousmile.jpg",
+      "case": "brands",
+      "body": "主理人及合作团队项目经历，具体归属见完整品牌档案。",
+      "link": "",
+      "visible": true
+    },
+    {
+      "id": "brand-5",
+      "title": "微信派",
+      "cover": "assets/portfolio/logo%E5%BE%AE%E4%BF%A1%E6%B4%BE.jpg",
+      "case": "brands",
+      "body": "主理人及合作团队项目经历，具体归属见完整品牌档案。",
+      "link": "",
+      "visible": true
+    },
+    {
+      "id": "brand-6",
+      "title": "凤凰网",
+      "cover": "assets/portfolio/logo%E5%87%A4%E5%87%B0%E7%BD%91.jpg",
+      "case": "brands",
+      "body": "主理人及合作团队项目经历，具体归属见完整品牌档案。",
+      "link": "",
+      "visible": true
+    },
+    {
+      "id": "brand-7",
+      "title": "鹏华基金",
+      "cover": "assets/portfolio/logo%E9%B9%8F%E5%8D%8E%E5%9F%BA%E9%87%91.jpg",
+      "case": "brands",
+      "body": "主理人及合作团队项目经历，具体归属见完整品牌档案。",
+      "link": "",
+      "visible": true
+    },
+    {
+      "id": "brand-8",
+      "title": "中国燃气",
+      "cover": "assets/portfolio/logo%E4%B8%AD%E5%9B%BD%E7%87%83%E6%B0%94.jpg",
+      "case": "brands",
+      "body": "主理人及合作团队项目经历，具体归属见完整品牌档案。",
+      "link": "",
+      "visible": true
+    },
+    {
+      "id": "brand-9",
+      "title": "贵州茅台",
+      "cover": "assets/portfolio/logo%E8%B4%B5%E5%B7%9E%E8%8C%85%E5%8F%B0.jpg",
+      "case": "brands",
+      "body": "主理人及合作团队项目经历，具体归属见完整品牌档案。",
+      "link": "",
+      "visible": true
+    },
+    {
+      "id": "brand-10",
+      "title": "奈雪的茶",
+      "cover": "assets/portfolio/logo%E5%A5%88%E9%9B%AA%E7%9A%84%E8%8C%B6.jpg",
+      "case": "brands",
+      "body": "主理人及合作团队项目经历，具体归属见完整品牌档案。",
+      "link": "",
+      "visible": true
+    },
+    {
+      "id": "brand-11",
+      "title": "天虹",
+      "cover": "assets/portfolio/logo%E5%A4%A9%E8%99%B9.jpg",
+      "case": "brands",
+      "body": "主理人及合作团队项目经历，具体归属见完整品牌档案。",
+      "link": "",
+      "visible": true
+    },
+    {
+      "id": "brand-12",
+      "title": "万科",
+      "cover": "assets/portfolio/logo%E4%B8%87%E7%A7%91.jpg",
+      "case": "brands",
+      "body": "主理人及合作团队项目经历，具体归属见完整品牌档案。",
+      "link": "",
+      "visible": true
+    },
+    {
+      "id": "brand-13",
+      "title": "比亚迪",
+      "cover": "assets/portfolio/logo%E6%AF%94%E4%BA%9A%E8%BF%AA.jpg",
+      "case": "brands",
+      "body": "主理人及合作团队项目经历，具体归属见完整品牌档案。",
+      "link": "",
+      "visible": true
+    },
+    {
+      "id": "brand-14",
+      "title": "广东公安",
+      "cover": "assets/portfolio/logo%E5%B9%BF%E4%B8%9C%E5%85%AC%E5%AE%89.jpg",
+      "case": "brands",
+      "body": "主理人及合作团队项目经历，具体归属见完整品牌档案。",
+      "link": "",
+      "visible": true
+    }
+  ]
+}

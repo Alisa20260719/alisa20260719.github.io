@@ -45,7 +45,7 @@ for(let i=0;i<32;i++){const f=document.createElement('i');f.style.cssText=`left:
 const treeObserver=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting)tree.classList.add('grown')})},{threshold:.15});treeObserver.observe(tree);
 motion.addEventListener('click',()=>tree.classList.toggle('tree-paused',stage.classList.contains('paused')));
 
-const adminGuide=document.getElementById('admin-guide');document.getElementById('owner-entry').onclick=()=>{if(location.protocol.startsWith('http')&&['localhost','127.0.0.1'].includes(location.hostname))location.href='/admin';else adminGuide.showModal()};adminGuide.querySelector('.guide-close').onclick=()=>adminGuide.close();adminGuide.addEventListener('click',e=>{if(e.target===adminGuide)adminGuide.close()});
+const adminGuide=document.getElementById('admin-guide');document.getElementById('owner-entry').onclick=()=>{location.href='https://app.pagescms.org/'};
 const space=document.querySelector('.ability-space');
 const galleryCards=[...space.querySelectorAll('.gallery-frame')];
 function selectGalleryFrame(card){
@@ -79,4 +79,4 @@ motion.addEventListener('click',()=>space.classList.toggle('gallery-paused',stag
 replay.addEventListener('click',()=>{space.classList.remove('gallery-paused');tree.classList.remove('tree-paused')});
 
 // Local editing remains available in the working copy; the public portfolio has no local admin link.
-if(location.protocol.startsWith('http')&&!['localhost','127.0.0.1'].includes(location.hostname))document.getElementById('owner-entry').hidden=true;
+if(location.protocol.startsWith('http')&&!['localhost','127.0.0.1'].includes(location.hostname))document.getElementById('owner-entry').hidden=false;

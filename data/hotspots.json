@@ -1,0 +1,84 @@
+{
+  "items": [
+    {
+      "id": "box-0",
+      "title": "独眼 · AI 影像",
+      "target": "duyan",
+      "x": 39,
+      "y": 17,
+      "visible": true
+    },
+    {
+      "id": "box-1",
+      "title": "明星广告",
+      "target": "stars",
+      "x": 83,
+      "y": 16,
+      "visible": true
+    },
+    {
+      "id": "box-2",
+      "title": "企业 AI 实践",
+      "target": "workflow",
+      "x": 66,
+      "y": 27,
+      "visible": true
+    },
+    {
+      "id": "box-3",
+      "title": "政企影像与编剧",
+      "target": "films",
+      "x": 21,
+      "y": 32,
+      "visible": true
+    },
+    {
+      "id": "box-4",
+      "title": "关于我",
+      "target": "about",
+      "x": 24,
+      "y": 58,
+      "visible": true
+    },
+    {
+      "id": "box-5",
+      "title": "旅行坐标 · 待解锁",
+      "target": "locked:travel",
+      "x": 75,
+      "y": 88,
+      "visible": true
+    },
+    {
+      "id": "box-6",
+      "title": "声音与音乐 · 待解锁",
+      "target": "locked:music",
+      "x": 44,
+      "y": 28,
+      "visible": true
+    },
+    {
+      "id": "box-7",
+      "title": "私人书单 · 待解锁",
+      "target": "locked:books",
+      "x": 78,
+      "y": 57,
+      "visible": true
+    },
+    {
+      "id": "box-8",
+      "title": "身体与生活 · 待解锁",
+      "target": "locked:fitness",
+      "x": 15,
+      "y": 78,
+      "visible": true
+    },
+    {
+      "id": "box-9",
+      "title": "写作与稿件",
+      "target": "writing",
+      "x": 25,
+      "y": 31,
+      "visible": true
+    }
+  ]
+}

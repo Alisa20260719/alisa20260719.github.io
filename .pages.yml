@@ -1,0 +1,201 @@
+media:
+  input: assets/uploads
+  output: /assets/uploads
+  rename: safe
+  extensions:
+  - jpg
+  - jpeg
+  - png
+  - webp
+  - gif
+  - pdf
+  - txt
+  - md
+  - docx
+content:
+- name: writing
+  label: 写作与稿件
+  type: file
+  path: data/writing.json
+  format: json
+  fields:
+  - &id001
+    name: id
+    label: 唯一标识（英文，不要修改已有标识）
+    type: string
+    required: true
+  - &id002
+    name: title
+    label: 名称
+    type: string
+    required: true
+  - &id003
+    name: cover
+    label: 封面 / Logo
+    type: image
+  - &id004
+    name: summary
+    label: 简短介绍
+    type: text
+  - &id005
+    name: body
+    label: 详细介绍
+    type: text
+  - &id006
+    name: link
+    label: 完整作品链接
+    type: string
+  - &id007
+    name: visible
+    label: 公开展示
+    type: boolean
+    default: true
+  - name: case
+    label: 原有模板
+    type: string
+  - name: onTree
+    label: 在灵感树生成圆灯
+    type: boolean
+    default: false
+  - name: category
+    label: 分类
+    type: string
+  - &id008
+    name: documents
+    label: 稿件列表
+    type: object
+    list: true
+    fields:
+    - name: title
+      label: 稿件名称
+      type: string
+      required: true
+    - name: path
+      label: 稿件文件（PDF / TXT / MD / DOCX）
+      type: file
+      required: true
+    - name: readPath
+      label: 可选：Word对应的TXT阅读文件
+      type: file
+- name: works
+  label: 作品案例 · 灵感树
+  type: file
+  path: data/works.json
+  format: json
+  fields:
+  - name: items
+    label: 条目（按列表顺序展示）
+    type: object
+    list: true
+    fields:
+    - *id001
+    - *id002
+    - *id003
+    - *id004
+    - *id005
+    - *id006
+    - *id007
+    - name: category
+      label: 类别
+      type: string
+    - name: onTree
+      label: 在灵感树生成圆灯
+      type: boolean
+      default: true
+    - name: media
+      label: 视频 / 音频地址
+      type: string
+    - name: case
+      label: 原有详细案例模板（新增可留空）
+      type: string
+    - *id008
+- name: brands
+  label: 品牌墙
+  type: file
+  path: data/brands.json
+  format: json
+  fields:
+  - name: items
+    label: 条目（按列表顺序展示）
+    type: object
+    list: true
+    fields:
+    - *id001
+    - *id002
+    - *id003
+    - *id004
+    - *id005
+    - *id006
+    - *id007
+    - name: case
+      label: 原有详细案例模板（新增可留空）
+      type: string
+- name: hotspots
+  label: 人生盒子 · 物件入口
+  type: file
+  path: data/hotspots.json
+  format: json
+  fields:
+  - name: items
+    label: 条目（按列表顺序展示）
+    type: object
+    list: true
+    fields:
+    - name: id
+      label: 物件标识（保留不变）
+      type: string
+      required: true
+    - name: title
+      label: 名称
+      type: string
+      required: true
+    - name: target
+      label: 打开目标：案例标识 / about / locked:travel 等
+      type: string
+      required: true
+    - name: x
+      label: 新增热点横坐标百分比
+      type: number
+    - name: y
+      label: 新增热点纵坐标百分比
+      type: number
+    - name: visible
+      label: 显示入口
+      type: boolean
+      default: true
+- name: about
+  label: 关于我
+  type: file
+  path: data/about.json
+  format: json
+  fields:
+  - name: name
+    label: 姓名
+    type: string
+  - name: image
+    label: 照片
+    type: image
+  - name: heading
+    label: 标题
+    type: string
+  - name: lead
+    label: 引言
+    type: text
+  - name: body
+    label: 个人介绍
+    type: text
+  - name: tags
+    label: 标签
+    type: string
+    list: true
+  - name: beliefs
+    label: 创作理念
+    type: object
+    list: true
+    fields:
+    - name: title
+      label: 标题
+      type: string
+    - name: body
+      label: 说明
+      type: text
