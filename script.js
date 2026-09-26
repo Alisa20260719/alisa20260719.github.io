@@ -1,5 +1,5 @@
 const stage=document.getElementById('box-stage'),openButton=document.getElementById('open-box'),lid=document.getElementById('lid'),world=document.getElementById('inner-world'),replay=document.getElementById('replay'),motion=document.getElementById('motion'),note=document.getElementById('box-note');let opened=false;
-function revealWorld(){if(opened){stage.scrollIntoView({behavior:'smooth',block:'center'});return}opened=true;stage.classList.add('open');lid.tabIndex=-1;lid.setAttribute('aria-hidden','true');world.setAttribute('aria-hidden','false');world.querySelectorAll('button').forEach(b=>b.tabIndex=0);openButton.innerHTML='探索盒中物件 <span>↗</span>';note.textContent='轻触物件探索作品；点击人物了解我。地图、音乐、书单与运动，等待解锁。';replay.hidden=false;motion.hidden=false;}
+function revealWorld(){if(opened){stage.scrollIntoView({behavior:'smooth',block:'center'});return}opened=true;stage.classList.add('open');lid.tabIndex=-1;lid.setAttribute('aria-hidden','true');world.setAttribute('aria-hidden','false');world.querySelectorAll('button').forEach(b=>b.tabIndex=0);openButton.innerHTML='探索盒中物件 <span>↗</span>';note.textContent='轻触物件探索作品；点击人物了解我。轻触书本，走进阅读迷宫。地图、音乐与运动，等待解锁。';replay.hidden=false;motion.hidden=false;}
 function openWorld(){revealWorld()}
 openButton.addEventListener('click',openWorld);lid.addEventListener('click',()=>{openWorld();openButton.focus({preventScroll:true})});
 replay.addEventListener('click',()=>{opened=false;stage.classList.remove('open','paused','video-opened','playing-opening');motion.textContent='暂停动效';motion.setAttribute('aria-pressed','false');lid.tabIndex=0;lid.removeAttribute('aria-hidden');world.setAttribute('aria-hidden','true');world.querySelectorAll('button').forEach(b=>b.tabIndex=-1);openButton.innerHTML='打开我的世界 <span>＋</span>';note.textContent='一个盒子，装着创作，也装着生活。';replay.hidden=true;motion.hidden=true;openButton.focus({preventScroll:true})});
@@ -65,6 +65,7 @@ const galleryViewport=document.querySelector('.gallery-viewport');if(innerWidth<
 
 // Unpublished personal chapters remain explorable without pretending content is ready.
 function showLockedChapter(key, source){
+ if(key==='books'){window.openReadingMaze(source);return;}
  const themes={travel:['旅行坐标','沿途的风景，和走过的地方。'],music:['声音与音乐','关于唱歌、音乐，和声音的记忆。'],books:['私人书单','那些读过、想读，也想与你分享的书。'],fitness:['身体与生活','在运动与日常里，寻找自己的节奏。']};
  const chapter=themes[key]||['新的章节','新的故事，正在慢慢积累。'];trigger=source;currentRoot=null;content.replaceChildren();content.classList.remove('rich-content');dialog.classList.remove('rich-dialog');dialog.setAttribute('aria-label',chapter[0]+'，待解锁');
  const article=document.createElement('article');article.className='locked-chapter';

@@ -58,8 +58,8 @@
     },
     {
       "id": "box-7",
-      "title": "私人书单 · 待解锁",
-      "target": "locked:books",
+      "title": "阅读的边界 · 书籍迷宫",
+      "target": "reading",
       "x": 78,
       "y": 57,
       "visible": true

@@ -199,3 +199,56 @@ content:
     - name: body
       label: 说明
       type: text
+- name: reading
+  label: 阅读迷宫 · 书籍与笔记
+  type: file
+  path: data/reading.json
+  format: json
+  fields:
+  - name: title
+    label: 迷宫标题
+    type: string
+    required: true
+  - name: description
+    label: 开场介绍
+    type: text
+  - name: items
+    label: 书籍（新增后自动加入随机探索）
+    type: object
+    list: true
+    fields:
+    - name: id
+      label: 唯一标识（新增可用 book-109；已有不要改）
+      type: string
+      required: true
+    - name: title
+      label: 书名
+      type: string
+      required: true
+    - name: cover
+      label: 书籍封面
+      type: image
+    - name: year
+      label: 读完年份
+      type: number
+    - name: visible
+      label: 参与随机探索
+      type: boolean
+      default: true
+    - name: recommendation
+      label: 我为什么推荐它
+      type: text
+    - name: notes
+      label: 关键摘录与我的笔记
+      type: text
+    - name: reflection
+      label: 它打开的边界
+      type: text
+    - name: y
+      label: 原截图封面位置（系统保留）
+      type: number
+      hidden: true
+    - name: coverX
+      label: 原封面横坐标（系统保留）
+      type: number
+      hidden: true
