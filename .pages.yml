@@ -252,3 +252,108 @@ content:
       label: 原封面横坐标（系统保留）
       type: number
       hidden: true
+
+- name: travel
+  label: 世界的回信 · 地图与旅行手记
+  type: file
+  path: data/travel.json
+  format: json
+  fields:
+  - name: title
+    label: 页面标题
+    type: string
+    required: true
+  - name: description
+    label: 开场介绍
+    type: text
+  - name: places
+    label: 地点（新增后自动生成地图锚点）
+    type: object
+    list: true
+    fields:
+    - name: name
+      label: 地点名称（记录关联时填写同名；已有名称请保持一致）
+      type: string
+      required: true
+    - name: country
+      label: 国家 / 省份
+      type: string
+    - name: region
+      label: 地图区域
+      type: select
+      options:
+        values:
+        - value: world
+          label: 世界地图（其他地区）
+        - value: asia
+          label: 中国 / 东亚
+        - value: europe
+          label: 欧洲
+      required: true
+    - name: x
+      label: 地图横向位置 0–100（可用地图选点工具获取）
+      type: number
+      required: true
+    - name: y
+      label: 地图纵向位置 0–100（可用地图选点工具获取）
+      type: number
+      required: true
+    - name: visible
+      label: 显示地点
+      type: boolean
+      default: true
+  - name: items
+    label: 旅行记录（按日期自动组成时间轴）
+    type: object
+    list: true
+    fields:
+    - name: id
+      label: 记录编号（新增使用未用过的数字）
+      type: number
+      required: true
+    - name: title
+      label: 这段记忆的标题
+      type: string
+      required: true
+    - name: date
+      label: 日期 YYYY-MM-DD（决定时间轴年份）
+      type: string
+      required: true
+    - name: locations
+      label: 关联地点（填写地点列表中的名称；支持多个）
+      type: string
+      list: true
+      required: true
+    - name: screenshot
+      label: 朋友圈主体截图 / 照片
+      type: image
+    - name: experience
+      label: 当时的事件与经历
+      type: text
+    - name: reflection
+      label: 当时的感想 / 今天回看
+      type: text
+    - name: visible
+      label: 公开展示
+      type: boolean
+      default: true
+    - name: video
+      label: 这是一张视频封面截图
+      type: boolean
+      default: false
+    - name: note
+      label: 地点核对备注（仅后台保留）
+      type: text
+  - name: maps
+    label: 地图底图（可替换为更高清图片）
+    type: object
+    fields:
+    - name: world
+      label: 世界地图
+      type: image
+    - name: asia
+      label: 东亚地图
+      type: image
+    - name: europe
+      label: 欧洲地图
+      type: image

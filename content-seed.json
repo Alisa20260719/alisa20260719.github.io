@@ -255,8 +255,8 @@
     },
     {
       "id": "box-5",
-      "title": "旅行坐标 · 待解锁",
-      "target": "locked:travel",
+      "title": "世界的回信 · 旅行足迹",
+      "target": "travel",
       "x": 75,
       "y": 88,
       "visible": true
