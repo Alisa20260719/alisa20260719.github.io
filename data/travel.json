@@ -1,0 +1,636 @@
+{
+  "title": "世界的回信",
+  "description": "在世界的不同角落，遇见那时的自己。",
+  "maps": {
+    "world": "assets/travel/world.webp",
+    "asia": "assets/travel/asia.webp",
+    "europe": "assets/travel/europe.webp"
+  },
+  "places": [
+    {
+      "name": "北京",
+      "x": 55,
+      "y": 23,
+      "country": "中国",
+      "region": "asia",
+      "visible": true
+    },
+    {
+      "name": "日照",
+      "x": 60,
+      "y": 32,
+      "country": "中国 · 山东",
+      "region": "asia",
+      "visible": true
+    },
+    {
+      "name": "南京",
+      "x": 58,
+      "y": 41,
+      "country": "中国 · 江苏",
+      "region": "asia",
+      "visible": true
+    },
+    {
+      "name": "上海",
+      "x": 63.5,
+      "y": 44,
+      "country": "中国",
+      "region": "asia",
+      "visible": true
+    },
+    {
+      "name": "杭州",
+      "x": 62,
+      "y": 49,
+      "country": "中国 · 浙江",
+      "region": "asia",
+      "visible": true
+    },
+    {
+      "name": "景德镇",
+      "x": 53,
+      "y": 49,
+      "country": "中国 · 江西",
+      "region": "asia",
+      "visible": true
+    },
+    {
+      "name": "重庆",
+      "x": 35,
+      "y": 47,
+      "country": "中国",
+      "region": "asia",
+      "visible": true
+    },
+    {
+      "name": "南宁",
+      "x": 43,
+      "y": 64,
+      "country": "中国 · 广西",
+      "region": "asia",
+      "visible": true
+    },
+    {
+      "name": "广州",
+      "x": 49,
+      "y": 61,
+      "country": "中国 · 广东",
+      "region": "asia",
+      "visible": true
+    },
+    {
+      "name": "深圳",
+      "x": 53,
+      "y": 64,
+      "country": "中国 · 广东",
+      "region": "asia",
+      "visible": true
+    },
+    {
+      "name": "厦门",
+      "x": 60,
+      "y": 57,
+      "country": "中国 · 福建",
+      "region": "asia",
+      "visible": true
+    },
+    {
+      "name": "三亚",
+      "x": 42,
+      "y": 79,
+      "country": "中国 · 海南",
+      "region": "asia",
+      "visible": true
+    },
+    {
+      "name": "大阪",
+      "x": 90,
+      "y": 37,
+      "country": "日本",
+      "region": "asia",
+      "visible": true
+    },
+    {
+      "name": "日本",
+      "x": 93,
+      "y": 27,
+      "country": "日本 · 城市待确认",
+      "region": "asia",
+      "visible": true
+    },
+    {
+      "name": "韩国",
+      "x": 74,
+      "y": 25,
+      "country": "韩国 · 城市待确认",
+      "region": "asia",
+      "visible": true
+    },
+    {
+      "name": "芭提雅",
+      "x": 28,
+      "y": 90,
+      "country": "泰国",
+      "region": "asia",
+      "visible": true
+    },
+    {
+      "name": "瑞士",
+      "x": 43,
+      "y": 34,
+      "country": "瑞士 · 城市待确认",
+      "region": "europe",
+      "visible": true
+    },
+    {
+      "name": "苏黎世",
+      "x": 54,
+      "y": 23,
+      "country": "瑞士",
+      "region": "europe",
+      "visible": true
+    },
+    {
+      "name": "日内瓦湖",
+      "x": 17,
+      "y": 30,
+      "country": "瑞士 · 湖区，具体城市未明确",
+      "region": "europe",
+      "visible": true
+    },
+    {
+      "name": "威尼斯",
+      "x": 85,
+      "y": 73,
+      "country": "意大利",
+      "region": "europe",
+      "visible": true
+    },
+    {
+      "name": "米兰",
+      "country": "意大利",
+      "region": "europe",
+      "x": 38,
+      "y": 72,
+      "visible": true
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "city": "待确认",
+      "date": "2025-08-04",
+      "title": "关关难过关关过，前路漫漫亦灿灿",
+      "note": "截图未显示明确地点，暂不落地图。",
+      "locations": [
+        "待确认"
+      ],
+      "country": "待确认",
+      "experience": "",
+      "reflection": "",
+      "visible": true,
+      "screenshot": "assets/travel/memory-1.jpg"
+    },
+    {
+      "id": 2,
+      "city": "日本",
+      "date": "2025-10-18",
+      "title": "10.17 养老展",
+      "note": "定位仅显示日本 · 中央区，具体城市待确认。",
+      "locations": [
+        "日本"
+      ],
+      "country": "日本",
+      "experience": "",
+      "reflection": "",
+      "visible": true,
+      "screenshot": "assets/travel/memory-2.jpg"
+    },
+    {
+      "id": 3,
+      "city": "北京",
+      "date": "2025-10-24",
+      "title": "故都的秋",
+      "locations": [
+        "北京"
+      ],
+      "country": "中国",
+      "experience": "",
+      "reflection": "",
+      "visible": true,
+      "screenshot": "assets/travel/memory-3.jpg"
+    },
+    {
+      "id": 4,
+      "city": "瑞士",
+      "date": "2026-04-18",
+      "title": "极限挑战开始了 good luck",
+      "note": "按国家展示；截图中的具体城市名不完整。",
+      "locations": [
+        "瑞士"
+      ],
+      "country": "瑞士",
+      "experience": "",
+      "reflection": "",
+      "visible": true,
+      "screenshot": "assets/travel/memory-4.jpg"
+    },
+    {
+      "id": 5,
+      "city": "深圳",
+      "date": "2021-02-27",
+      "title": "元宵，圆满杀青",
+      "locations": [
+        "深圳"
+      ],
+      "country": "中国",
+      "experience": "",
+      "reflection": "",
+      "visible": true,
+      "screenshot": "assets/travel/memory-5.jpg"
+    },
+    {
+      "id": 6,
+      "city": "日照",
+      "date": "2024-03-30",
+      "title": "如果大海有双克莱因蓝的眼睛",
+      "note": "地点来自你在原截图中的回复；展示图已删除全部评论。",
+      "locations": [
+        "日照"
+      ],
+      "country": "中国",
+      "label": "中国 · 山东 · 日照",
+      "experience": "",
+      "reflection": "",
+      "visible": true,
+      "screenshot": "assets/travel/memory-6.jpg"
+    },
+    {
+      "id": 7,
+      "city": "北京",
+      "date": "2021-03-21",
+      "title": "时隔一年半，重回北京",
+      "locations": [
+        "北京"
+      ],
+      "country": "中国",
+      "experience": "",
+      "reflection": "",
+      "visible": true,
+      "screenshot": "assets/travel/memory-7.jpg"
+    },
+    {
+      "id": 8,
+      "city": "三亚",
+      "date": "2026-05-15",
+      "title": "衣帽间里开 party",
+      "locations": [
+        "三亚"
+      ],
+      "country": "中国",
+      "experience": "",
+      "reflection": "",
+      "visible": true,
+      "screenshot": "assets/travel/memory-8.jpg"
+    },
+    {
+      "id": 9,
+      "city": "芭提雅",
+      "date": "2023-02-20",
+      "title": "芭提雅",
+      "video": true,
+      "locations": [
+        "芭提雅"
+      ],
+      "country": "泰国",
+      "experience": "",
+      "reflection": "",
+      "visible": true,
+      "screenshot": "assets/travel/memory-9.jpg"
+    },
+    {
+      "id": 10,
+      "city": "南京",
+      "date": "2025-07-31",
+      "title": "没想到还有共情经纪人的一天",
+      "locations": [
+        "南京"
+      ],
+      "country": "中国",
+      "experience": "",
+      "reflection": "",
+      "visible": true,
+      "screenshot": "assets/travel/memory-10.jpg"
+    },
+    {
+      "id": 11,
+      "city": "上海",
+      "date": "2025-06-06",
+      "title": "孟也老师 Whygarden",
+      "locations": [
+        "上海"
+      ],
+      "country": "中国",
+      "experience": "",
+      "reflection": "",
+      "visible": true,
+      "screenshot": "assets/travel/memory-11.jpg"
+    },
+    {
+      "id": 12,
+      "city": "重庆",
+      "date": "2026-03-12",
+      "title": "思君不见下渝州",
+      "locations": [
+        "重庆"
+      ],
+      "country": "中国",
+      "experience": "",
+      "reflection": "",
+      "visible": true,
+      "screenshot": "assets/travel/memory-12.jpg"
+    },
+    {
+      "id": 13,
+      "city": "南京",
+      "date": "2024-05-05",
+      "title": "南京的梧桐有什么不同",
+      "locations": [
+        "南京"
+      ],
+      "country": "中国",
+      "experience": "",
+      "reflection": "",
+      "visible": true,
+      "screenshot": "assets/travel/memory-13.jpg"
+    },
+    {
+      "id": 14,
+      "city": "上海 / 厦门",
+      "date": "2025-07-10",
+      "title": "最好的关系，是彼此没有期待，做好当下",
+      "note": "正文明确：第1–8张是上海，第9张是上个月在厦门拍摄。此条在两地关联展示，日期为朋友圈发布日期。",
+      "locations": [
+        "上海",
+        "厦门"
+      ],
+      "country": "中国",
+      "experience": "",
+      "reflection": "",
+      "visible": true,
+      "screenshot": "assets/travel/memory-14.jpg"
+    },
+    {
+      "id": 15,
+      "city": "杭州",
+      "date": "2025-12-19",
+      "title": "朋友是天赐的礼物",
+      "locations": [
+        "杭州"
+      ],
+      "country": "中国",
+      "experience": "",
+      "reflection": "",
+      "visible": true,
+      "screenshot": "assets/travel/memory-15.jpg"
+    },
+    {
+      "id": 16,
+      "city": "大阪",
+      "date": "2025-10-20",
+      "title": "扫街图鉴：大阪是暖色的",
+      "locations": [
+        "大阪"
+      ],
+      "country": "日本",
+      "experience": "",
+      "reflection": "",
+      "visible": true,
+      "screenshot": "assets/travel/memory-16.jpg"
+    },
+    {
+      "id": 17,
+      "city": "南宁",
+      "date": "2024-10-08",
+      "title": "风月都好看，人间也浪漫",
+      "video": true,
+      "locations": [
+        "南宁"
+      ],
+      "country": "中国",
+      "experience": "",
+      "reflection": "",
+      "visible": true,
+      "screenshot": "assets/travel/memory-17.jpg"
+    },
+    {
+      "id": 18,
+      "city": "日本",
+      "date": "2025-10-19",
+      "title": "纯女版花少团",
+      "note": "日本旅行记录，具体城市待确认。",
+      "locations": [
+        "日本"
+      ],
+      "country": "日本",
+      "experience": "",
+      "reflection": "",
+      "visible": true,
+      "screenshot": "assets/travel/memory-18.jpg"
+    },
+    {
+      "id": 19,
+      "city": "景德镇",
+      "date": "2025-03-29",
+      "title": "不规则的杯子 + 碎瓷贴画",
+      "locations": [
+        "景德镇"
+      ],
+      "country": "中国",
+      "experience": "",
+      "reflection": "",
+      "visible": true,
+      "screenshot": "assets/travel/memory-19.jpg"
+    },
+    {
+      "id": 20,
+      "city": "厦门",
+      "date": "2025-06-23",
+      "title": "鼓浪屿，掉进宫崎骏的夏天",
+      "locations": [
+        "厦门"
+      ],
+      "country": "中国",
+      "experience": "",
+      "reflection": "",
+      "visible": true,
+      "screenshot": "assets/travel/memory-20.jpg"
+    },
+    {
+      "id": 21,
+      "city": "苏黎世",
+      "country": "瑞士",
+      "locations": [
+        "苏黎世"
+      ],
+      "date": "2026-04-21",
+      "title": "遇见王沥川的苏黎世",
+      "note": "正文回忆苏黎世；发布定位为意大利 Como，按正文归瑞士。",
+      "experience": "",
+      "reflection": "",
+      "visible": true,
+      "screenshot": "assets/travel/memory-21.jpg"
+    },
+    {
+      "id": 22,
+      "city": "广州",
+      "country": "中国",
+      "locations": [
+        "广州"
+      ],
+      "date": "2025-12-07",
+      "title": "广州设计周",
+      "note": "地点来自正文。",
+      "experience": "",
+      "reflection": "",
+      "visible": true,
+      "screenshot": "assets/travel/memory-22.jpg"
+    },
+    {
+      "id": 23,
+      "city": "韩国",
+      "country": "韩国",
+      "locations": [
+        "韩国"
+      ],
+      "date": "2026-06-03",
+      "title": "这一口下去将会很疯狂",
+      "note": "定位只清晰显示韩国，具体城市待确认。",
+      "experience": "",
+      "reflection": "",
+      "visible": true,
+      "screenshot": "assets/travel/memory-23.jpg"
+    },
+    {
+      "id": 24,
+      "city": "韩国",
+      "country": "韩国",
+      "locations": [
+        "韩国"
+      ],
+      "date": "2026-06-03",
+      "title": "안녕히 가세요",
+      "note": "韩国旅行记录；具体城市待确认。",
+      "experience": "",
+      "reflection": "",
+      "visible": true,
+      "screenshot": "assets/travel/memory-24.jpg"
+    },
+    {
+      "id": 25,
+      "city": "威尼斯",
+      "country": "意大利",
+      "locations": [
+        "威尼斯"
+      ],
+      "date": "2026-04-28",
+      "title": "水上威尼斯，百年后也会归于沉寂",
+      "note": "正文回忆威尼斯；发布定位不用于覆盖正文地点。",
+      "experience": "",
+      "reflection": "",
+      "visible": true,
+      "screenshot": "assets/travel/memory-25.jpg"
+    },
+    {
+      "id": 26,
+      "city": "北京",
+      "country": "中国",
+      "locations": [
+        "北京"
+      ],
+      "date": "2026-06-12",
+      "title": "来都来了 · 八达岭长城",
+      "note": "截图定位明确为北京市 · 八达岭长城。",
+      "experience": "",
+      "reflection": "",
+      "visible": true,
+      "screenshot": "assets/travel/memory-26.jpg"
+    },
+    {
+      "id": 27,
+      "city": "米兰",
+      "country": "意大利",
+      "locations": [
+        "米兰"
+      ],
+      "date": "2026-04-22",
+      "title": "查理的巧克力工厂",
+      "note": "地点由本人确认：米兰。",
+      "experience": "",
+      "reflection": "",
+      "visible": true,
+      "screenshot": "assets/travel/memory-27.jpg"
+    },
+    {
+      "id": 28,
+      "city": "米兰",
+      "country": "意大利",
+      "locations": [
+        "米兰"
+      ],
+      "date": "2026-04-26",
+      "title": "米兰家具展与米兰街头",
+      "note": "地点由本人确认：米兰。",
+      "experience": "",
+      "reflection": "",
+      "visible": true,
+      "screenshot": "assets/travel/memory-28.jpg"
+    },
+    {
+      "id": 29,
+      "city": "日内瓦湖",
+      "country": "瑞士",
+      "locations": [
+        "日内瓦湖"
+      ],
+      "date": "2026-04-23",
+      "title": "碧透的日内瓦湖畔",
+      "note": "正文回忆日内瓦湖；发布定位为意大利 Vigevano，按正文归瑞士湖区，具体沿湖城市未明确。",
+      "experience": "",
+      "reflection": "",
+      "visible": true,
+      "screenshot": "assets/travel/memory-29.jpg"
+    },
+    {
+      "id": 30,
+      "city": "上海",
+      "country": "中国",
+      "locations": [
+        "上海"
+      ],
+      "date": "2025-10-29",
+      "title": "人在囧途，但准时抵达",
+      "note": "截图定位为上海市 · 京东集团。",
+      "experience": "",
+      "reflection": "",
+      "visible": true,
+      "screenshot": "assets/travel/memory-30.jpg"
+    },
+    {
+      "id": 31,
+      "city": "待确认",
+      "country": "待确认",
+      "locations": [
+        "待确认"
+      ],
+      "date": "2025-12-27",
+      "title": "淡水鱼放到海里会怎么样",
+      "note": "正文未写游览城市，发布定位显示咸阳市 · 西安咸阳…；不据机场定位推断回忆发生地。",
+      "experience": "",
+      "reflection": "",
+      "visible": true,
+      "screenshot": "assets/travel/memory-31.jpg"
+    }
+  ]
+}
