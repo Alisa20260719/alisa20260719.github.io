@@ -64,6 +64,22 @@
       "visible": true
     },
     {
+      "name": "丽江",
+      "x": 27,
+      "y": 47,
+      "country": "中国 · 云南",
+      "region": "asia",
+      "visible": true
+    },
+    {
+      "name": "大理",
+      "x": 27,
+      "y": 53,
+      "country": "中国 · 云南",
+      "region": "asia",
+      "visible": true
+    },
+    {
       "name": "南宁",
       "x": 43,
       "y": 64,
@@ -84,6 +100,22 @@
       "x": 53,
       "y": 64,
       "country": "中国 · 广东",
+      "region": "asia",
+      "visible": true
+    },
+    {
+      "name": "香港",
+      "x": 55,
+      "y": 67,
+      "country": "中国 · 香港",
+      "region": "asia",
+      "visible": true
+    },
+    {
+      "name": "澳门",
+      "x": 49,
+      "y": 67,
+      "country": "中国 · 澳门",
       "region": "asia",
       "visible": true
     },
@@ -124,6 +156,14 @@
       "x": 74,
       "y": 25,
       "country": "韩国 · 城市待确认",
+      "region": "asia",
+      "visible": true
+    },
+    {
+      "name": "济州岛",
+      "x": 72,
+      "y": 35,
+      "country": "韩国 · 济州",
       "region": "asia",
       "visible": true
     },
@@ -631,6 +671,141 @@
       "reflection": "",
       "visible": true,
       "screenshot": "assets/travel/memory-31.jpg"
+    },
+    {
+      "id": 32,
+      "city": "深圳",
+      "country": "中国",
+      "locations": [
+        "深圳"
+      ],
+      "date": "2025-06-09",
+      "title": "家美乐设计师游学、科勒、三谷设计与玛斯菲尔参观学习",
+      "note": "截图无发布定位；按正文提及的设计游学与玛斯菲尔参访行程归入深圳。展示图已裁去点赞与评论。",
+      "experience": "",
+      "reflection": "",
+      "visible": true,
+      "screenshot": "assets/travel/memory-32.jpg"
+    },
+    {
+      "id": 33,
+      "city": "济州岛",
+      "country": "韩国",
+      "locations": [
+        "济州岛"
+      ],
+      "date": "2025-04-21",
+      "title": "愿望总在不经意间达成",
+      "note": "截图无发布定位；与同组济州岛旅程及正文图片内容对应。展示图已裁去点赞与评论。",
+      "experience": "",
+      "reflection": "",
+      "visible": true,
+      "screenshot": "assets/travel/memory-33.jpg"
+    },
+    {
+      "id": 34,
+      "city": "济州岛",
+      "country": "韩国",
+      "locations": [
+        "济州岛"
+      ],
+      "date": "2025-04-19",
+      "title": "济州岛",
+      "note": "正文与发布定位均明确为韩国济州。展示图已裁去点赞与评论。",
+      "experience": "",
+      "reflection": "",
+      "visible": true,
+      "screenshot": "assets/travel/memory-34.jpg"
+    },
+    {
+      "id": 35,
+      "city": "香港",
+      "country": "中国",
+      "locations": [
+        "香港"
+      ],
+      "date": "2025-03-04",
+      "title": "香港",
+      "note": "正文明确写有香港；发布定位显示中西区。展示图已裁去点赞与评论。",
+      "experience": "",
+      "reflection": "",
+      "visible": true,
+      "screenshot": "assets/travel/memory-35.jpg"
+    },
+    {
+      "id": 36,
+      "city": "大理",
+      "country": "中国",
+      "locations": [
+        "大理"
+      ],
+      "date": "2025-01-22",
+      "title": "飞鸥不下",
+      "note": "截图无发布定位；按同组正文“苍山雪 洱海月”归入大理。展示图已裁去点赞与评论。",
+      "experience": "",
+      "reflection": "",
+      "visible": true,
+      "screenshot": "assets/travel/memory-36.jpg"
+    },
+    {
+      "id": 37,
+      "city": "大理",
+      "country": "中国",
+      "locations": [
+        "大理"
+      ],
+      "date": "2025-01-26",
+      "title": "苍山雪，洱海月",
+      "note": "正文明确写有苍山、洱海，归入大理。展示图已裁去点赞与评论。",
+      "experience": "",
+      "reflection": "",
+      "visible": true,
+      "screenshot": "assets/travel/memory-37.jpg"
+    },
+    {
+      "id": 38,
+      "city": "丽江",
+      "country": "中国",
+      "locations": [
+        "丽江"
+      ],
+      "date": "2025-01-27",
+      "title": "遇上玉龙雪山的第一场雪",
+      "note": "正文明确写有玉龙雪山，归入丽江。展示图已裁去点赞与评论。",
+      "experience": "",
+      "reflection": "",
+      "visible": true,
+      "screenshot": "assets/travel/memory-38.jpg"
+    },
+    {
+      "id": 39,
+      "city": "澳门",
+      "country": "中国",
+      "locations": [
+        "澳门"
+      ],
+      "date": "2024-12-30",
+      "title": "澳门：楼台金碧拥南环，灯火千门夜不关",
+      "note": "正文明确写有澳门。展示图已裁去点赞与评论。",
+      "experience": "",
+      "reflection": "",
+      "visible": true,
+      "screenshot": "assets/travel/memory-39.jpg"
+    },
+    {
+      "id": 40,
+      "city": "南宁",
+      "country": "中国",
+      "locations": [
+        "南宁"
+      ],
+      "date": "2024-10-09",
+      "title": "青秀山（工作照出人生照片）",
+      "note": "正文明确写有青秀山，锚钉归入青秀山所在的南宁。展示图已裁去点赞与评论。",
+      "experience": "",
+      "reflection": "",
+      "visible": true,
+      "screenshot": "assets/travel/memory-40.jpg"
     }
   ]
 }
